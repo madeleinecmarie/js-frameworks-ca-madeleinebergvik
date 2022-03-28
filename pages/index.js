@@ -17,7 +17,10 @@ export default function Characters({ characters }) {
     <div className={styles.container}>
       <Head>
         <title>Framework CA</title>
-        <meta name="Rick and Morty" content="Rick and Morty API site" />
+        <meta
+          name="Rick and Morty"
+          content="Rick and Morty API Course Assigment website"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
