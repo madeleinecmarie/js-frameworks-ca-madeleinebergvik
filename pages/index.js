@@ -31,7 +31,7 @@ export default function Characters({ characters }) {
           {characters.results.map(({ id, image, name, species }) => (
             <div key={id} className={styles.card}>
               <div onClick={() => handleOnClick(id)}>
-                <img src={image}></img>
+                <img src={image} className={styles.img}></img>
               </div>
               <h3>{name}</h3>
               <p>ID: {id}</p>

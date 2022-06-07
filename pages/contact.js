@@ -1,10 +1,10 @@
-import Header from "../components/header/header";
+import Nav from "../components/nav/Nav";
 import Form from "../components/form/form";
 
 function Contact() {
   return (
     <div>
-      <Header />
+      <Nav />
       <Form />
     </div>
   );

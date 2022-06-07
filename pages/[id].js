@@ -1,14 +1,19 @@
 import React from "react";
 import { gql } from "@apollo/client";
 import client from "../apollo-client";
+import styles from "../styles/Home.module.css";
+import Nav from "../components/nav/Nav";
 
 function DetailsId({ name, image, species }) {
   return (
-    <div>
-      <h1>{name}</h1>
-      <img src={image}></img>
-      <p>{species}</p>
-    </div>
+    <>
+      <Nav />
+      <div className={styles.id}>
+        <h1>{name}</h1>
+        <img src={image}></img>
+        <p>{species}</p>
+      </div>
+    </>
   );
 }
 

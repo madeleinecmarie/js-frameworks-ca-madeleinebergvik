@@ -1,6 +1,8 @@
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
+import styles from "../../styles/Home.module.css";
+
 const Form = () => {
   const {
     values,
@@ -50,7 +52,7 @@ const Form = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={styles.form}>
         <input
           id="firstName"
           name="firstName"
@@ -58,6 +60,7 @@ const Form = () => {
           value={values.firstName}
           onChange={handleChange}
           onBlur={handleBlur}
+          className={styles.input}
         />
         <p style={{ color: "red" }}>{touched.firstName && errors.firstName}</p>
 
@@ -68,6 +71,7 @@ const Form = () => {
           value={values.lastName}
           onChange={handleChange}
           onBlur={handleBlur}
+          className={styles.input}
         />
         <p style={{ color: "red" }}>{touched.lastName && errors.lastName}</p>
 
@@ -78,6 +82,7 @@ const Form = () => {
           value={values.email}
           onChange={handleChange}
           onBlur={handleBlur}
+          className={styles.input}
         />
         <p style={{ color: "red" }}>{touched.email && errors.email}</p>
 
@@ -87,6 +92,7 @@ const Form = () => {
           value={values.musicTaste}
           onChange={handleChange}
           onBlur={handleBlur}
+          className={styles.inputoption}
         >
           <option value="default">Options</option>
           <option value="classical">Option 1</option>
@@ -100,10 +106,16 @@ const Form = () => {
           value={values.message}
           onChange={handleChange}
           onBlur={handleBlur}
+          className={styles.messagefield}
+          placeholder="Write your message here"
         />
         <p style={{ color: "red" }}>{touched.message && errors.message}</p>
 
-        <button type="submit" disabled={isSubmitting}>
+        <button
+          type="submit"
+          disabled={isSubmitting}
+          className={styles.formbutton}
+        >
           Submit
         </button>
       </form>

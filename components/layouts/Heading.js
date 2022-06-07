@@ -1,3 +1,3 @@
-export default function Heading({ title = "Default title" }) {
+export default function Heading({ title }) {
   return <h1>{title}</h1>;
 }
