@@ -31,7 +31,7 @@ Clone the repo
 - https://github.com/madeleinecmarie/js-frameworks-ca-madeleinebergvik.git
 
 
-2. Install the dependencies:
+Install dependencies:
 
 ```
 npm install
