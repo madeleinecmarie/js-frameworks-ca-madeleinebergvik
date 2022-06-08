@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import { gql } from "@apollo/client";
 import client from "../apollo-client";
 import { Router, useRouter } from "next/router";
-import Header from "../components/header/header";
+import Header from "../components/header/Header";
 
 export default function Characters({ characters }) {
   console.log(characters.results);
