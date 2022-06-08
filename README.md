@@ -1,76 +1,51 @@
-# JS Frameworks Course Assignment
 
-## Brief
 
-Create either a new React or Next.js app in this repo.
 
-For the login functionality, use either a Wordpress installation with the <a href="https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/" target="_blank">JWT plugin from Module 3</a> installed, or a Strapi installation. Do not add either of these to your repo. Your API should remain a separate project. The markers will use their own installations when marking.
 
-You can use either a REST or GraphQL API for the API calls.
 
----
 
-## Level 1
+# JS Frameworks Course Assignment / Rick & Morty
 
-Your app should have the following paths:
+![rickandmorty](https://user-images.githubusercontent.com/69841827/172651025-dc139531-d02b-4724-a632-1d2f1896c80c.png)
 
-- "/"
-- "/detail/:param"
-- "/contact"
-- "/login"
-- "/admin"
+ This project I made for the Javascript frameworks CA in 2022 was made with a Rick and Morty API. 
 
-The admin path won't appear in your navigation.
+## Description
 
-Use reusable components where appropriate and pay attention to how the components are arranged.
+In this project I used the Rick and Morty API and made an API call using GraphQL to fetch the data and displayed it to the DOM. You can further click on the characters to get more specific information about them. Also used Github Auth so you can contact the website and log in. 
 
-### Home
+## Built With
 
-Find an API that returns at least:
+- HTML
+- CSS
+- Next.js
+- GraphQL
+- Visual Studio Code
 
-- an array of items
-- a single item retrieved by a parameter (id, name, slug, etc)
+## Getting Started
 
-If you are using Next you can also hard-code json and return it from API routes created in `pages/api/*`.
+### Installing
 
-You can use your own Wordpress or Strapi or any other API that you have created for these calls but it must be publically hosted - it must not be running on your localhost.
+Clone the repo
+- Git clone
+- https://github.com/madeleinecmarie/js-frameworks-ca-madeleinebergvik.git
 
-Display at least 2 properties from each result.
 
-Each result should link to the detail page, passing a parameter in the URL.
+2. Install the dependencies:
 
-### Detail
+```
+npm install
+```
 
-Retrieve the parameter from the URL and use it in an API call to fetch one item.
+### Running
 
-Display at least 3 properties from the item.
+To run the project, do the following: 
 
-### Contact
 
-Create a form with the following inputs and validation:
+```bash
+npm run dev
+```
 
-- First name - required, minimum 3 characters
-- Last name - required, minimum 4 characters
-- Email - required, must be in a valid email format
-- Subject - required, this must be a select box with at least 2 options
-- Message - required, minimum 10 characters.
+## Contact
 
-### Login
-
-Create a form with username/email and password fields. The inputs should have the necessary validation for a login form (not a registration form).
-
-The form should make a login request to either a Wordpress API with the JWT plugin installed or a Strapi API. If the login is successful redirect the user to the admin route.
-
-If the login is unsuccessful display a message above the form.
-
-### Admin
-
-This page will simply display an "Admin" heading.
-
----
-
-## Level 2
-
-Add a favourite button/icon component to each result on your home page. Clicking this button will toggle the result in/out of a favourites array.
-
-Add a "/favourites" path to your routes. This page will display all the items currently in the favourites array.
+[My LinkedIn](https://www.linkedin.com/in/madeleine-bergvik-276b6b20a/)
