@@ -1,9 +1,3 @@
-
-
-
-
-
-
 # JS Frameworks Course Assingment
 
 ![rickandmorty](https://user-images.githubusercontent.com/69841827/172651025-dc139531-d02b-4724-a632-1d2f1896c80c.png)
@@ -12,7 +6,7 @@
 
 ## Description
 
-In this project I used the Rick and Morty API and made an API call using GraphQL to fetch the data and displayed it to the DOM. You can further click on the characters to get more specific information about them. Also used Github Auth so you can contact the website and log in. 
+In this project I used the Rick and Morty API and made an API call using GraphQL to fetch the data and displayed it to the DOM. You can further click on the characters to get more specific information about them. Also used Github Auth so you can contact the website and log in. Deployed it using Netlify.
 
 ## Built With
 
@@ -20,6 +14,7 @@ In this project I used the Rick and Morty API and made an API call using GraphQL
 - CSS
 - Next.js
 - GraphQL
+- Netlify
 - Visual Studio Code
 
 ## Getting Started
