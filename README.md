@@ -4,7 +4,7 @@
 
 
 
-# JS Frameworks Course Assignment / Rick & Morty
+# JS Frameworks Course Assingment
 
 ![rickandmorty](https://user-images.githubusercontent.com/69841827/172651025-dc139531-d02b-4724-a632-1d2f1896c80c.png)
 
