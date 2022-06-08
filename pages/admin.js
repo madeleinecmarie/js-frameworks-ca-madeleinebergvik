@@ -1,10 +1,10 @@
 import Heading from "../components/layouts/Heading";
-import Header from "../components/header/header";
+import Nav from "../components/nav/Nav";
 
 function admin() {
   return (
     <div>
-      <Header />
+      <Nav />
       <Heading title="Hi, and welcome!"></Heading>
     </div>
   );

@@ -1,5 +1,5 @@
 import Nav from "../components/nav/Nav";
-import Form from "../components/form/form";
+import Form from "../components/form/Form";
 
 function Contact() {
   return (
