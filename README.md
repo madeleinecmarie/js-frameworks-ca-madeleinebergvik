@@ -27,19 +27,23 @@ In this project I used the Rick and Morty API and made an API call using GraphQL
 ### Installing
 
 Clone the repo
-- [Git clone]
-- [https://github.com/madeleinecmarie/js-frameworks-ca-madeleinebergvik.git]
+- Git clone
+- https://github.com/madeleinecmarie/js-frameworks-ca-madeleinebergvik.git
 
 
 2. Install the dependencies:
 
-[npm install]
+```
+npm install
+```
 
 ### Running
 
 To run the project, do the following: 
 
-[npm run dev]
+```bash
+npm run dev
+```
 
 ## Contact
 
