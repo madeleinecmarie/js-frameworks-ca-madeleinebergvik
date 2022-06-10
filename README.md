@@ -1,6 +1,6 @@
 # JS Frameworks Course Assingment
 
-https://magical-mochi-ef492f.netlify.app/_ipx/w_2048,q_75/%2Fimages%2Frickandmorty.png?url=%2Fimages%2Frickandmorty.png&w=2048&q=75
+[![rickandmorty](https://magical-mochi-ef492f.netlify.app/_ipx/w_2048,q_75/%2Fimages%2Frickandmorty.png?url=%2Fimages%2Frickandmorty.png&w=2048&q=75)]
 
  This project I made for the Javascript frameworks CA in 2022 was made with a Rick and Morty API. 
 
